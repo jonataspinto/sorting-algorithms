@@ -5,7 +5,8 @@
   "author": "jonataspinto <jonatastdb_jp@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --colors",
+    "test:coverage": "jest --colors --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
