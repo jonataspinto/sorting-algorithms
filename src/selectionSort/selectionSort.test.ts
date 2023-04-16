@@ -9,7 +9,9 @@ const mockNames = {
 };
 
 describe("Selection sort", () => {
-  it.todo("should sort a list of numbers correctly");
+  it("should sort a list of numbers correctly", () => {
+    expect(selectionSort(mockNumber.input)).toEqual(mockNumber.expect);
+  });
 
   it.todo("should sort a list of names correctly");
 });
