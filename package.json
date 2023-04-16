@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --colors",
-    "test:coverage": "jest --colors --coverage"
+    "test:coverage": "jest --colors --coverage",
+    "test:watch": "jest --verbose --colors --watch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
